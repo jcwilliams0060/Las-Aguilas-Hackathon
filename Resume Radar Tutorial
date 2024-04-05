@@ -1,2 +1,24 @@
-# Heading 1
-The code for the Resume Radar Colabs Notebook is divided into 4 cells.
+The code for the Resume Radar Colabs Notebook is divided into 4 cells that must be run in numerical order. 
+The Cells are clearly numbered and labeled in the text box above each cell.
+
+Cell 1
+--------------
+Simply run this cell to install all the necessary imports.
+
+Cell 2
+--------------
+Running this cell will prompt the user to enter a list of keywords. These keywords should be relevant to what the 
+employer is seeking in a prospective employee. Make sure to include desired fields, skills or other requirements.
+
+The elements must be separated by commas. Ex:Software,Python,Rust,C++ 
+Do not include spaces before or after commas or else the later cells will not be able to search for the keyword. 
+When you have listed all desired keywords, hit enter. The Keywords you entered will then be displayed. If you made
+a mistake while entering keywords, simply run the cell again and reenter your list of keywords. 
+
+Cell 3
+--------------
+Before running this cell, you need to prepare your resumes as well as the Colab Notebook for entry. Here are the following steps:
+
+1). Go into your file explorer and make sure all the resumes you wish to evaluate are in the same folder.
+2). Compress that folder into a zipped folder.
+3). In Google Colabs, click the 
